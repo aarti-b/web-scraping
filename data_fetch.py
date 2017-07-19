@@ -48,4 +48,4 @@ df1['Group'] = df1['Group'].str.replace('\(\d+\)', '')
 
 with pd.option_context('display.max_rows', 999):
     print (df1)
-df1.to_csv('D:/output_new.csv')
+df1.to_csv('D:/output.csv')
